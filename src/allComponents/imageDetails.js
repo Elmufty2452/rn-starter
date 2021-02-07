@@ -3,7 +3,7 @@ import {Text, StyleSheet, View} from 'react-native'
 
 const ImageDetails = () => {
     return (
-        <Text> Image Details</Text>
+        <Text style = {styles.text}> Image Details</Text>
     )
 }
 const styles = StyleSheet.create({

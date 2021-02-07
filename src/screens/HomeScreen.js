@@ -17,7 +17,7 @@ const HomeScreen = (props) => {
       />
       <Button
         style = {styles.Button}
-        onPress = {() => console.log('Image')}
+        onPress = {() => props.navigation.navigate('Image')}
         title = "Go to Image Demo"
       />
 
@@ -30,10 +30,11 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 30,
     textAlign: 'center',
+    color:'red'
     
   },
   Button: {
-    marginBottom:10
+    marginBottom:50
   }
 });
 

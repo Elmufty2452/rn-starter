@@ -5,7 +5,9 @@ import ImageDetails from '../allComponents/imageDetails'
 const ImageScreen = () => {
     return(
         <View>
-             {<ImageDetails />}
+             <ImageDetails />
+             <ImageDetails />
+             <ImageDetails />
         </View>
         
     )
@@ -14,4 +16,4 @@ const style = StyleSheet.create({
     
 })
 
-export default ImageScreens
+export default ImageScreen
