@@ -1,5 +1,5 @@
 import React from 'react'
-import {Text, StyleSheet,View } from 'react-native'; 
+import {Text, StyleSheet,View , Button } from 'react-native'; 
 
 const ComponentsScreen = () => {
     const greeting = 'Abdullah Abdulfatah Omobolaji Amoo'
@@ -8,7 +8,7 @@ const ComponentsScreen = () => {
             <Text style = {styles.textStyle}>  Getting Started with Expo </Text>
             <Text style = {styles.nextStyle}> My name is {greeting}</Text>
         </View>
-        
+
     );  
 }
 const styles = StyleSheet.create ({
