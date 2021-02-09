@@ -5,7 +5,7 @@ const ImageDetails = ({title, scoreRatings, imageSource}) => {
     
     return (
         <View>
-            <Text > {title}</Text>
+            <Text style = {styles.main}> {title}</Text>
             <Image source = {imageSource} />
             <Text style = {styles.text}>  {scoreRatings} </Text>
         </View>
@@ -16,6 +16,9 @@ const styles = StyleSheet.create({
   text: {
       fontSize:15,
       color:'red',
+      textAlign:'center'
+  },
+  main:{
       textAlign:'center'
   }
 })

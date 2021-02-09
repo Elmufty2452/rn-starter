@@ -20,7 +20,16 @@ const HomeScreen = ({navigation}) => {
         onPress = {() => navigation.navigate('Image')}
         title = "Go to Image Demo"
       />
-
+      <Button
+        style = {styles.Button}
+        onPress = {() => navigation.navigate('Counter')}
+        title = "Go to Counter Demo"
+      />
+      <Button
+        style = {styles.Button}
+        onPress = {() => navigation.navigate('Colors')}
+        title = "Go to Colors Demo"
+      />
 
     </View>
     )
@@ -30,11 +39,12 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 30,
     textAlign: 'center',
-    color:'red'
+    color:'red',
+    marginBottom:10 
     
   },
   Button: {
-    marginBottom:50
+    buttonMarginBottom:50 
   }
 });
 
